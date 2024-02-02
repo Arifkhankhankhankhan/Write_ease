@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 5%; /* Adjust margin as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items in a column for better responsiveness */
+}
+
+
+#big {
+    font-size: 4rem; /* Adjust font size as needed */
+}
+
+.middle {
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.get {
+    margin-left: 80px;
+    background-color: #02987c;
+    font-size: 3rem; /* Adjust font size as needed */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 15px; /* Adjust border-radius as needed */
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    #big {
+        font-size: 3rem;
+        margin:2%;
+    }
+
+    .get {
+        font-size: 2rem;
+        padding: 10px;
+        border-radius: 10px;
+        margin:2%;
+        margin-left: 0;
+    }
+    .top-container{
+        margin: 20%;
+
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    #big {
+        font-size: 2rem;
+        margin:2%;
+    }
+
+    .get {
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 8px;
+        margin:2%;
+        margin-left: 0;
+    }
+    .top-container{
+        margin: 20%;
+    }
+    .whatsapp-first{
+      margin: 20%;
+      display: flex;
+      justify-content: center;
+      flex: row;
+    }
+}
+
+/* second */
+.container-text {
+    display: flex;
+  }
+  
+  .text-side {
+    flex: 0.75;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  
+  .image-side {
+    flex: 0.25;
+  }
+  
+  .pointer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00827d;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 30px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  
+  .pointer img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+  }
+  
+
+ .grey{
+    color: #00827d;
+ }
+ .cane{
+    display: flex;
+    margin-top: 30px;
+ }
+
+  /* Add more styles as needed */
+ 
+  
+  @media only screen and (max-width: 768px) {
+    .container-text {
+      flex-direction: column;
+      margin: 20%;
+    }
+    .whatsapp-first{
+        margin: 80px;
+    } 
+  
+    .text-side,
+    .image-side {
+      flex: 1;
+    }
+    .cane {
+        display: block;
+        margin: 20%;
+        }
+
+      .pointer{ width: 100%;} 
+
+  }
+  
+
+
+  /* uses ccs */
+  
+  
+  .container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#02987c ;
+  }
+
+  .thrid{
+ width: 100%;
+  
+  text-align: center;
+  margin: 50px;
+
+ 
+
+ 
+  
+  }
+  .black{
+    background-color: #101010;
+    
+
+    text-align: center;
+   
+
+  }
+  
+  .box {
+    width: 25%;
+    margin: 10px;
+    background-color: aliceblue;
+    color: #9891ad;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: -7px -7px #160647;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #101010;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .rod {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #42356a;
+    margin-left: 10px;
+  }
+  
+  .spam{
+    color: #43bbb7;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Add more styles as needed */
+  
+  @media only screen and (max-width: 768px) {
+    .box {
+      width: 48%; /* Two boxes in a row for smaller screens */
+    }
+    .container4{
+        margin: 80px;
+       
+
+    }
+    .thrid{
+      width: 100%;
+     
+    }
+  }
+
+
+
+
+
+  /* princing and footer */
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Base styling for the container */
+.container1 {
+    width: 80%; /* Adjust width as needed */
+    margin: auto; /* Center the container */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Header styling */
+.header {
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+}
+
+.plan {
+    font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+/* Container2 styling */
+.container2 {
+    display: flex;
+    justify-content: space-around; /* Distribute children evenly */
+    margin-top: 30px;
+  
+     /* Adjust margin as needed */
+}
+
+/* Styling for each pricing option */
+.first {
+
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+    box-shadow: -7px -7px  #160647;
+    border-radius: 10px;
+    background: linear-gradient(to right,#43bbb7,#f5f5f5);
+}
+
+.first img {
+    max-width: 100%;
+}
+
+/* Styling for the last container */
+.lastcontainer {
+  background-color: #03a37b;
+width: 100%;
+    text-align: center;
+    margin: 50px 0; /* Adjust margin as needed */
+}
+
+.lastcontainer h1 {
+  color: #f5f5f5;
+  margin: 20px;
+    font-size: 2.5rem; /* Adjust font size as needed */
+}
+
+#chand {
+  color: #f5f5f5;
+    font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+/* Styling for the "Get Started for Free" button */
+.btns {
+  margin: 20px;
+    background-color: #160647;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem; /* Adjust font size as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the footer container */
+.container5 {
+    background-color: #f5f5f5; /* Adjust background color as needed */
+    padding: 20px 0; /* Adjust padding as needed */
+    display: flex;
+  width: 100%;
+    justify-content: space-around; /* Distribute children evenly */
+}
+
+.raju img {
+    max-width: 100%;
+}
+
+
+/* Styling for the lists in the footer */
+.list {
+    list-style: none;
+    padding: 0;
+}
+.hand,.change{
+
+  font-weight: bolder;
+}
+
+/* Styling for the footer copyright section */
+footer {
+ 
+  font-weight: bolder;
+  color:#160647;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  bottom: 0;
+  width: 100%;
+}
+
+.blue {
+  color:#03a37b; /* Green color, adjust as needed */
+}
+.ul{
+  font-weight: bolder;
+  margin: 5px;
+
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    .container1 {
+        width: 90%;
+       
+    
+        
+      text-align: center; /* Adjust width as needed */
+    }
+    .first{
+      margin-left: 30%;
+      margin-bottom: 10px;
+    
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .plan {
+        font-size: 1rem;
+    }
+
+    .container2 {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+
+    .btns {
+        font-size: 0.9rem;
+    }
+    .hand,.change{
+      margin: 20px;
+    }
+
+    .container5 {
+      margin: 20%;
+      display: flex;
+      justify-content: center;
+      flex: row;
+       
+         /* Change to a column layout on smaller screens */
+    }
+}
+
+
+  /* how its  */
+
+
+
+
+ Set box-sizing to border-box for easier layout handling
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.container-3 {
+  width: 80;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; 
+  background-color: #03a37b;
+ 
+}
+
+ 
+.write {
+  width: 30%;  
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50%;
+}
+
+.roll {
+  font-size: 2rem;
+  color: #160647; 
+}
+
+ 
+.context {
+  width: 70%;  
+  display: flex;
+
+  margin: 10px;  
+  flex-wrap: wrap;
+  
+}
+
+
+.coment, .small {
+  width: 48%; 
+   margin: 10px;
+   border-radius:20px;
+   box-shadow: 2px -2px 10px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.coment, .small {
+   background-color: #f5f5f5;
+ padding: 20px; 
+}
+
+
+.coment img, .small img {
+  max-width: 100%;
+  border-radius: 50%;
+   margin-top: 10px; 
+}
+
+
+
+span {
+   display: block; 
+  font-weight: bold;
+   margin-top: 10px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container-3 {
+      flex-direction: column; 
+  }
+  .write{
+    margin-top: 0;
+  }
+
+  .write, .context {
+      width: 100%; 
+  }
+
+  .coment, .small {
+      width: 100%; 
+      margin-left: 20%;
+      margin-right:20% ;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container-3 {
+      flex-direction: column; 
+  }
+
+  .write, .context {
+      width: 100%; 
+  }
+
+  .coment, .small {
+      width: 100%; 
+  }
+} 
+
+
+/* 
+how its pART 2 */
+
+
+
+/* Reset some default styles */
+/* Reset some default styles */
+
+
+/* Set box-sizing to border-box for easier layout handling */
+/* Reset some default styles */
+
+/* Set box-sizing to border-box for easier layout handling */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Styling for container7 */
+.container7 {
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Styling for How and why in container7 */
+.How {
+  font-size: 36px;
+  color: #101010; /* Adjust color as needed */
+  font-weight: bold;
+}
+
+.why {
+  display: block; /* Each on a new line */
+  font-size: 23px;
+  color: #555; /* Adjust color as needed */
+}
+
+/* Styling for the wrapper */
+.wrapper {
+  display: flex;
+  justify-content: space-between; /* Distribute steps and container-2 evenly */
+  flex-wrap: wrap;
+   /* Allow steps and container-2 to wrap to the next line on smaller screens */
+}
+
+/* Styling for the steps container */
+.steps {
+  display: flex;
+  flex-direction:column ;
+  justify-content: space-between; /* Distribute steps evenly */
+  width: 50%;
+  margin-left: 5%;
+  /* Adjust width as needed */
+}
+
+/* Styling for each step */
+.step1 {
+  width: 23%; /* Each step takes 23% of the steps container */
+  text-align: left;
+  /* Adjust margin as needed */
+}
+
+/* Styling for the images in each step */
+.imgs{
+  background-color: #02987c;
+ 
+box-shadow: -5px 5px 3px 3px rgba(0,0,0,0.3);
+ padding: 30px;
+  border-radius: 30%;
+  max-width: 100%;
+ 
+ 
+}
+
+/* Styling for the common styles in each step */
+.download, .downloadss, .downloads {
+  max-width: 50%; /* Adjust max-width as needed */
+  margin: 10px 0; /* Adjust margin as needed */
+}
+
+/* Styling for the content in each step */
+#as, #bs, #cs, #ds {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+/* Styling for container-2 */
+.container-2 {
+  width: 40%; /* Container-2 takes 20% of the wrapper */
+  text-align: left;
+margin-right: 5%;
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+/* Styling for Benefits, shulko, and para in container-2 */
+.ben {
+  display: block;
+  font-size: 29px;
+  margin-bottom: 25px;
+  text-align: left;
+  color: #02987c;
+}
+
+.shulko{
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight:bolder ;
+}
+
+.para{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.bt{
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  background-color:#02987c ;
+  color: aliceblue;
+  cursor: pointer;
+  width: 250px;
+  box-shadow: -5px 6px  #160647;
+
+}
+.u,.ds{
+  font-size: 1.2rem ;
+  font-weight: bolder;
+}
+
+#second{
+
+  margin-left: 30%;
+}
+#thrid{
+
+  margin-left: 30%;
+}
+
+
+
+
+
+
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .steps {
+      width: 100%;
+      margin: 20%; /* Full width for steps on smaller screens */
+  }
+
+  .step1 {
+      width: 48%; /* Each step takes 48% of the steps container on smaller screens */
+  }
+
+  .container-2 {
+      width: 100%; /* Full width for container-2 on smaller screens */
+      
+      margin-left:20%; 
+      margin-right:20%; 
+      margin-bottom:20%; /* Adjust margin as needed */
+  }
+}
+
+
+
+/* Common styles for container-3 */
